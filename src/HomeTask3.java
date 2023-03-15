@@ -1,3 +1,5 @@
+import jdk.nashorn.internal.runtime.regexp.joni.exception.ValueException;
+
 import java.io.IOException;
 import java.util.Stack;
 
@@ -29,7 +31,9 @@ public class HomeTask3 {
                 System.out.println(res);
 
                 operation = input.Str("Введите действие");
-
+                if (!(operation.equals("+")||operation.equals("-")||operation.equals("*")||operation.equals("/")||operation.equals("r")||operation.equals("q"))){
+                    throw new ValueException("Некорректное действие");
+                }
                 if (!(operation.contains("r") || operation.contains("q")))
                     num2 = input.Double("Введите число");
 
@@ -63,7 +67,7 @@ public class HomeTask3 {
             }
 
         } catch (Exception e) {
-            //e.printStackTrace();
+            System.out.println("Ошибочный ввод, попробуйте снова");
             calc(memory);
         }
     }

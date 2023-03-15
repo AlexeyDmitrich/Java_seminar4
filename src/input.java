@@ -15,7 +15,7 @@ public class input {
 
     public static double Double(String usersText) {
         System.out.println(usersText);
-        double value = input.nextDouble();
+        double value = java.lang.Double.parseDouble(input.next());
         return value;
     }
 
