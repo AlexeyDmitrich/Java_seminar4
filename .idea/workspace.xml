@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ebb231e-91ca-4cda-b0b8-30eec4d3d2bf" name="Changes" comment="2nd task complete">
+    <list default="true" id="8ebb231e-91ca-4cda-b0b8-30eec4d3d2bf" name="Changes" comment="3rd task ещё чуть-чуть и  complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeTask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeTask3.java" afterDir="false" />
     </list>
@@ -69,14 +69,22 @@
       <option name="project" value="LOCAL" />
       <updated>1678792304795</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3rd task ещё чуть-чуть и  complete">
+      <created>1678799217222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678799217222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st task complete" />
     <MESSAGE value="1st task complete. add input" />
     <MESSAGE value="2nd task complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd task complete" />
+    <MESSAGE value="3rd task ещё чуть-чуть и  complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd task ещё чуть-чуть и  complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

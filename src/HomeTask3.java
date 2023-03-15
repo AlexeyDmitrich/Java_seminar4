@@ -3,7 +3,10 @@ import java.util.Stack;
 
 public class HomeTask3 {
     public static void main(String[] args) throws IOException {
-        calc();
+        double starter = input.Double("Введите число");
+        Memory memory = new Memory();
+        memory.in(starter);
+        calc(memory);
     }
 
 //    public static double calculator (){
@@ -14,48 +17,55 @@ public class HomeTask3 {
 //        }
 //    }
 
-    public static void calc (){
-        Memory memory = new Memory();
-        String operation = "";
-        double num2 = 0;
-        while (!operation.contains("q")) {
+    public static void calc (Memory memory){
+
+
+            String operation = "";
+            double num2 = 0;
+        try {
+            while (!operation.contains("q")) {
 //            double num1 = (double) memory.get();
-            double res = memory.get();
-            System.out.println(res);
+                double res = memory.get();
+                System.out.println(res);
 
-            operation = input.Str("Введите действие");
+                operation = input.Str("Введите действие");
 
-            if (!(operation.contains("r") || operation.contains("q")))
-            num2 = input.Double("Введите число");
+                if (!(operation.contains("r") || operation.contains("q")))
+                    num2 = input.Double("Введите число");
 
-            switch (operation) {
-                case "+":
-                    res = res + num2;
-                    memory.in(res);
-                    continue;
-                case "-":
-                    res = res - num2;
-                    memory.in(res);
-                    continue;
-                case "*":
-                    res = res * num2;
-                    memory.in(res);
-                    continue;
-                case "/":
-                    res = res / num2;
-                    memory.in(res);
-                    continue;
-                case "r":
-                    res = memory.out();
-                    continue;
-                case "q":
-                    return;
-                default:
-                    throw new RuntimeException("Запрашиваемое действие не найдено");
+                switch (operation) {
+                    case "+":
+                        res = res + num2;
+                        memory.in(res);
+                        continue;
+                    case "-":
+                        res = res - num2;
+                        memory.in(res);
+                        continue;
+                    case "*":
+                        res = res * num2;
+                        memory.in(res);
+                        continue;
+                    case "/":
+                        res = res / num2;
+                        memory.in(res);
+                        continue;
+                    case "r":
+                        res = memory.out();
+                        continue;
+                    case "q":
+                        return;
+                    default:
+                        memory.in(res);
+                        res = memory.out();
+                        throw new RuntimeException("Запрашиваемое действие не найдено");
+                }
             }
+
+        } catch (Exception e) {
+            //e.printStackTrace();
+            calc(memory);
         }
-
-
     }
 
     private static class Memory {
