@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ebb231e-91ca-4cda-b0b8-30eec4d3d2bf" name="Changes" comment="3rd task complete">
+    <list default="true" id="8ebb231e-91ca-4cda-b0b8-30eec4d3d2bf" name="Changes" comment="3rd task remarked. add parseDouble to input.java">
+      <change afterPath="$PROJECT_DIR$/src/S5HomeTask1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/S5HomeTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/S5HomeTask3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeTask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeTask3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,28 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.S5HomeTask3">
+    <configuration name="S5HomeTask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S5HomeTask3" />
+      <module name="seminar4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="seminar4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.S5HomeTask3" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678861498163</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="3rd task remarked. add parseDouble to input.java">
+      <created>1678880591307</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678880591307</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -93,7 +123,8 @@
     <MESSAGE value="2nd task complete" />
     <MESSAGE value="3rd task ещё чуть-чуть и  complete" />
     <MESSAGE value="3rd task complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rd task complete" />
+    <MESSAGE value="3rd task remarked. add parseDouble to input.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd task remarked. add parseDouble to input.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -102,6 +133,24 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/S5HomeTask3.java</url>
+          <line>58</line>
+          <properties class="S5HomeTask3">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/S5HomeTask3.java</url>
+          <line>98</line>
+          <properties class="S5HomeTask3" method="nextQuin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
